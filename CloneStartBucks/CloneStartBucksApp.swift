@@ -12,7 +12,6 @@ struct CloneStartBucksApp: App {
     var body: some Scene {
         WindowGroup {
             MainTabView()
-                .accentColor(.green)
         }
     }
 }

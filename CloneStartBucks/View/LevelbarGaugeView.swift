@@ -1,13 +1,13 @@
 //
-//  LevelBarGauge.swift
+//  LevelbarGaugeView.swift
 //  CloneStartBucks
 //
-//  Created by Yunwon Han on 2023/05/22.
+//  Created by Yunwon Han on 2023/05/31.
 //
 
 import SwiftUI
 
-struct LevelBarGauge: View {
+struct LevelbarGaugeView: View {
     
     @State var totalRewards: Int
     @State var userGetRewards: Int
@@ -50,8 +50,8 @@ struct LevelBarGauge: View {
     }
 }
 
-struct LevelBarGauge_Previews: PreviewProvider {
+struct LevelbarGaugeView_Previews: PreviewProvider {
     static var previews: some View {
-        LevelBarGauge(totalRewards: 25, userGetRewards: 17)
+        LevelbarGaugeView(totalRewards: 25, userGetRewards: 17)
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct whatsNewsSectionView: View {
+struct WhatsNewsSectionView: View {
     var body: some View {
         
         VStack {
@@ -24,7 +24,7 @@ struct whatsNewsSectionView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 16.0){
-                    ForEach(WhatsNews.sample) { news in
+                    ForEach(WhatsNewsModel.sample) { news in
                         whatsNewsItemView(imageName: news.imageName, title: news.title, description: news.description)
                     }
                 }.padding(.horizontal, 16.0)
@@ -58,6 +58,6 @@ struct whatsNewsItemView: View {
 
 struct whatsNewsSectionView_Previewss:PreviewProvider {
     static var previews: some View {
-        whatsNewsSectionView()
+        WhatsNewsSectionView()
     }
 }

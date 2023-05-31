@@ -26,14 +26,8 @@ struct HomeHeaderView: View {
                 .padding(.horizontal, 16.0)
             }
             
-            ///
-//            HStack {
-//                VStack {
-//                    RoundedBarGauge(value: 0.6, barWidth: 200.0, barHeight: 20.0, cornerRadius: 10.0)
-//                }
-//            }
-            LevelBarGauge(totalRewards: 25, userGetRewards: 17)
-
+            LevelbarGaugeView(totalRewards: 25, userGetRewards: 17)
+            HeaderMenuView()
         }
     }
 }

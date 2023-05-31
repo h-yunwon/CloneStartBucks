@@ -19,7 +19,7 @@ struct MenuSuggestionSectionView: View {
                 .padding(.horizontal, 16.0)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
-                    ForEach(CoffeeMenu.sample) { menu in
+                    ForEach(CoffeeMenuModel.sample) { menu in
                         MenuSuggestionItemView(imageName: menu.imageName, name: menu.name)
                     }
                 }
