@@ -14,12 +14,12 @@ struct OtherView: View {
         NavigationView {
             ScrollView(.vertical) {
                 VStack {
-
                     OtherHeaderView()
-                        .padding(.bottom, 20)
-                    
-                    OtherMenuView()
-                    
+                    OtherMenuView(title: "Pay", buttonData: buttonPayData)
+                    OtherMenuView(title: "Order", buttonData: buttonOrderData)
+                    OtherMenuView(title: "Shop", buttonData: buttonShopData)
+                    OtherMenuView(title: "Delivers", buttonData: buttonDeliversData)
+                    OtherMenuView(title: "고객지원", buttonData: buttonServiceData)
                 }//: VSTACK
                 .navigationTitle("Other")
                 .navigationBarTitleDisplayMode(.large)

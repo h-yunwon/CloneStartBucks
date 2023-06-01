@@ -9,38 +9,40 @@ import SwiftUI
 
 struct OtherMenuView: View {
     
+    var title: String
+    let buttonData: [ButtonData]
+    
     @State private var gridLayoutBodyButton: [GridItem] = [
         GridItem(.flexible()),
         GridItem(.flexible())
     ]
     
-    let buttonData: [ButtonData] = buttonPayData
-
     var body: some View {
         VStack {
-            Text("Pay")
+            Text(title)
                  .font(.title3)
                  .fontWeight(.bold)
                  .frame(maxWidth: .infinity, alignment: .leading)
-                 .padding(.horizontal, 15)
-             
+                 .padding(.bottom, 20)
+
             LazyVGrid(columns: gridLayoutBodyButton, alignment: .leading, spacing: 20) {
                 ForEach(buttonData) { data in
                     NavigationLink(destination: data.link) {
                         ButtonMenuView(imageName: data.imageName, text: data.text)
                     }
+                    .padding(.bottom, 10)
                 }
             }
-             .padding()
             
             Divider().padding(.vertical, 4)
 
         }
+        .padding()
     }
 }
 
 struct OtherMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        OtherMenuView()
+        OtherMenuView(title: "Pay", buttonData: buttonPayData)
     }
 }

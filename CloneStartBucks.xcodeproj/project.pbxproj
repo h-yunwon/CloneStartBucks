@@ -88,6 +88,7 @@
 			children = (
 				5FFE066029F7A6D7005976FA /* HomeView.swift */,
 				5F3AC12D2A27461A00623B69 /* OtherView.swift */,
+				5FFE065029DEAEE9005976FA /* MainTabView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -109,7 +110,6 @@
 				5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */,
 				5F3AC13F2A28510200623B69 /* TestView.swift */,
 				5F3AC13D2A284FE900623B69 /* StarHistoryView.swift */,
-				5FFE065029DEAEE9005976FA /* MainTabView.swift */,
 				5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */,
 				5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */,
 				5F3AC12A2A273BBA00623B69 /* LevelbarGaugeView.swift */,

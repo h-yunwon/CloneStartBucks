@@ -14,9 +14,13 @@ struct ButtonMenuView: View {
     var body: some View {
         HStack {
             Image(systemName: imageName)
-            
+                .font(.subheadline)
+                .fontWeight(.light)
+                .foregroundColor(.black)
             Text("\(text)")
                 .font(.subheadline)
+                .fontWeight(.light)
+                .foregroundColor(.black)
         }
     }
 }

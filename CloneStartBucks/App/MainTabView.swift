@@ -34,7 +34,7 @@ struct MainTabView: View {
                     TabModel.shop.textItem
                 }
             
-            Text("Others")
+            OtherView()
                 .tabItem {
                     TabModel.other.imageItem
                     TabModel.other.textItem

@@ -19,21 +19,20 @@ struct OtherHeaderView: View {
     let buttonData: [ButtonData] = buttonHeaderData
     
     var body: some View {
-        VStack{
-            HStack {
-                Text("\(nickName.uppercased())")
+            VStack{
+                HStack {
+                    Text("\(nickName.uppercased())")
+                        .font(.title)
+                        .fontWeight(.medium)
+                        .foregroundColor(.accentColor)
+                    Text("님")
+                        .font(.title)
+                        .fontWeight(.medium)
+                    
+                }
+                Text("환영합니다!🙌🏻")
                     .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(.accentColor)
-                Text("님")
-                    .font(.title)
-                    .fontWeight(.bold)
-                
-            }
-            Text("환영합니다!🙌🏻")
-                .font(.title)
-                .fontWeight(.bold)
-            
+                    .fontWeight(.medium)
             LazyVGrid(columns: gridLayoutHeaderButton, alignment: .center) {
                 ForEach(buttonData) { data in
                     NavigationLink(destination: data.link) {
@@ -42,8 +41,9 @@ struct OtherHeaderView: View {
                 }
             }//: GRID
             .padding(.horizontal, 30)
-        }//: VSTACK
-    }
+            .padding(.bottom, 20)
+        }
+    }//: VSTACK
 }
 
 struct OtherHeaderView_Previews: PreviewProvider {
