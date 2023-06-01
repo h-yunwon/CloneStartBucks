@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OtherHeaderView: View {
     
+    // MARK: - PROPERTY
     @State private var nickName:String = "wmogi9"
     @State private var gridLayoutHeaderButton: [GridItem] = [
         GridItem(.flexible()),
@@ -18,10 +19,24 @@ struct OtherHeaderView: View {
     
     let buttonData: [ButtonData] = buttonHeaderData
     
+    // MARK: - FUNCTION
+    func HideNickName(nickName: String) -> String {
+        guard nickName.count >= 2 else {
+            return nickName
+        }
+        
+        let startIndex = nickName.index(nickName.endIndex, offsetBy: -2)
+        let hiddenPart = String(repeating: "*", count: 2)
+        let visiblePart = nickName[..<startIndex]
+        
+        return (visiblePart + hiddenPart).uppercased()
+    }
+    
+    // MARK: - Body
     var body: some View {
             VStack{
                 HStack {
-                    Text("\(nickName.uppercased())")
+                    Text("\(HideNickName(nickName:nickName))")
                         .font(.title)
                         .fontWeight(.medium)
                         .foregroundColor(.accentColor)

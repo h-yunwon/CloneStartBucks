@@ -39,7 +39,6 @@ struct MainTabView: View {
                     TabModel.other.imageItem
                     TabModel.other.textItem
                 }
-            
         }
     }
     
