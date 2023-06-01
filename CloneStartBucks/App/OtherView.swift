@@ -42,8 +42,8 @@ struct OtherView: View {
                         }
                     }
                 }//: TOOLBAR
-            }//: NAVIGATION
-        }
+            }//: SCROLL
+        }//: NAVIGATION
     }
 }
 

@@ -28,7 +28,7 @@ struct OtherMenuView: View {
             LazyVGrid(columns: gridLayoutBodyButton, alignment: .leading, spacing: 20) {
                 ForEach(buttonData) { data in
                     NavigationLink(destination: data.link) {
-                        ButtonMenuView(imageName: data.imageName, text: data.text)
+                        TapOtherMenuView(imageName: data.imageName, text: data.text)
                     }
                     .padding(.bottom, 10)
                 }

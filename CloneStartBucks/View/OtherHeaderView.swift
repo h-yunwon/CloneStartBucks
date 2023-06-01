@@ -33,10 +33,11 @@ struct OtherHeaderView: View {
                 Text("환영합니다!🙌🏻")
                     .font(.title)
                     .fontWeight(.medium)
+
             LazyVGrid(columns: gridLayoutHeaderButton, alignment: .center) {
                 ForEach(buttonData) { data in
                     NavigationLink(destination: data.link) {
-                        ButtonWithImageAndTextView(imageName: data.imageName, text: data.text)
+                        TapOtherHeaderView(imageName: data.imageName, text: data.text)
                     }
                 }
             }//: GRID

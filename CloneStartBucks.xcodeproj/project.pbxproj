@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		5F3AC12B2A273BBA00623B69 /* LevelbarGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC12A2A273BBA00623B69 /* LevelbarGaugeView.swift */; };
 		5F3AC12E2A27461A00623B69 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC12D2A27461A00623B69 /* OtherView.swift */; };
-		5F3AC1302A27554700623B69 /* ButtonWithImageAndTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */; };
+		5F3AC1302A27554700623B69 /* TapOtherHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC12F2A27554700623B69 /* TapOtherHeaderView.swift */; };
 		5F3AC1322A2758DD00623B69 /* OtherButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1312A2758DD00623B69 /* OtherButtonModel.swift */; };
-		5F3AC1342A2843E100623B69 /* ButtonMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */; };
+		5F3AC1342A2843E100623B69 /* TapOtherMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1332A2843E100623B69 /* TapOtherMenuView.swift */; };
 		5F3AC1382A284ABE00623B69 /* OtherHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1372A284ABE00623B69 /* OtherHeaderView.swift */; };
 		5F3AC13A2A284B4B00623B69 /* ButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1392A284B4B00623B69 /* ButtonData.swift */; };
 		5F3AC13C2A284BFF00623B69 /* OtherMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */; };
@@ -36,9 +36,9 @@
 /* Begin PBXFileReference section */
 		5F3AC12A2A273BBA00623B69 /* LevelbarGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelbarGaugeView.swift; sourceTree = "<group>"; };
 		5F3AC12D2A27461A00623B69 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
-		5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImageAndTextView.swift; sourceTree = "<group>"; };
+		5F3AC12F2A27554700623B69 /* TapOtherHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapOtherHeaderView.swift; sourceTree = "<group>"; };
 		5F3AC1312A2758DD00623B69 /* OtherButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherButtonModel.swift; sourceTree = "<group>"; };
-		5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenuView.swift; sourceTree = "<group>"; };
+		5F3AC1332A2843E100623B69 /* TapOtherMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapOtherMenuView.swift; sourceTree = "<group>"; };
 		5F3AC1372A284ABE00623B69 /* OtherHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherHeaderView.swift; sourceTree = "<group>"; };
 		5F3AC1392A284B4B00623B69 /* ButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonData.swift; path = CloneStartBucks/View/ButtonData.swift; sourceTree = SOURCE_ROOT; };
 		5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtherMenuView.swift; path = CloneStartBucks/App/OtherMenuView.swift; sourceTree = SOURCE_ROOT; };
@@ -110,8 +110,8 @@
 				5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */,
 				5F3AC13F2A28510200623B69 /* TestView.swift */,
 				5F3AC13D2A284FE900623B69 /* StarHistoryView.swift */,
-				5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */,
-				5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */,
+				5F3AC1332A2843E100623B69 /* TapOtherMenuView.swift */,
+				5F3AC12F2A27554700623B69 /* TapOtherHeaderView.swift */,
 				5F3AC12A2A273BBA00623B69 /* LevelbarGaugeView.swift */,
 				5FFE065E29DF07BF005976FA /* HomeHeaderView.swift */,
 				5FFE065429DEB603005976FA /* MenuSuggestionSectionView.swift */,
@@ -233,7 +233,7 @@
 				5FFE066129F7A6D7005976FA /* HomeView.swift in Sources */,
 				5F3AC13E2A284FE900623B69 /* StarHistoryView.swift in Sources */,
 				5FFE064D29DEAD54005976FA /* TabModel.swift in Sources */,
-				5F3AC1302A27554700623B69 /* ButtonWithImageAndTextView.swift in Sources */,
+				5F3AC1302A27554700623B69 /* TapOtherHeaderView.swift in Sources */,
 				5FFE065929DEC980005976FA /* WhatsNewsSectionView.swift in Sources */,
 				5FFE063F29DE9C56005976FA /* CloneStartBucksApp.swift in Sources */,
 				5F3AC1422A28546B00623B69 /* CoffeeMenuData.swift in Sources */,
@@ -246,7 +246,7 @@
 				5FFE065F29DF07BF005976FA /* HomeHeaderView.swift in Sources */,
 				5FFE065B29DECA4B005976FA /* WhatsNewsModel.swift in Sources */,
 				5FFE065129DEAEE9005976FA /* MainTabView.swift in Sources */,
-				5F3AC1342A2843E100623B69 /* ButtonMenuView.swift in Sources */,
+				5F3AC1342A2843E100623B69 /* TapOtherMenuView.swift in Sources */,
 				5FFE065529DEB603005976FA /* MenuSuggestionSectionView.swift in Sources */,
 				5F3AC12B2A273BBA00623B69 /* LevelbarGaugeView.swift in Sources */,
 				5F3AC12E2A27461A00623B69 /* OtherView.swift in Sources */,

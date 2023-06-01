@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ButtonMenuView: View {
+struct TapOtherMenuView: View {
     @State var imageName: String
     @State var text: String
     
@@ -25,11 +25,11 @@ struct ButtonMenuView: View {
     }
 }
 
-struct ButtonMenuView_Previews: PreviewProvider {
+struct TapOtherMenuView_Previews: PreviewProvider {
     static var imageName = "creditcard"
     static var text = "스타벅스 카드 등록"
     
     static var previews: some View {
-        ButtonMenuView(imageName: imageName, text: text)
+        TapOtherMenuView(imageName: imageName, text: text)
     }
 }

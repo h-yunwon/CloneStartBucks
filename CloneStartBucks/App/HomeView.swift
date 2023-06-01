@@ -23,7 +23,6 @@ struct HomeView:View {
                 WhatsNewsSectionView()
                     .padding(.horizontal,10)
                     .padding(.bottom, 20)
-                
             }
         }
         .edgesIgnoringSafeArea(.top)
