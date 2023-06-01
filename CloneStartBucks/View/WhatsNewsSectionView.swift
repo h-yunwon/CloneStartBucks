@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct WhatsNewsSectionView: View {
+    
+    let whatsNewsItems : [WhatsNewsModel] = whatsNewsData
+    
     var body: some View {
-        
         VStack {
             
             HStack {
@@ -24,7 +26,7 @@ struct WhatsNewsSectionView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack(spacing: 16.0){
-                    ForEach(WhatsNewsModel.sample) { news in
+                    ForEach(whatsNewsItems) { news in
                         whatsNewsItemView(imageName: news.imageName, title: news.title, description: news.description)
                     }
                 }.padding(.horizontal, 16.0)

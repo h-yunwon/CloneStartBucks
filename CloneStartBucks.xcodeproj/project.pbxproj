@@ -11,6 +11,14 @@
 		5F3AC12E2A27461A00623B69 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC12D2A27461A00623B69 /* OtherView.swift */; };
 		5F3AC1302A27554700623B69 /* ButtonWithImageAndTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */; };
 		5F3AC1322A2758DD00623B69 /* OtherButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1312A2758DD00623B69 /* OtherButtonModel.swift */; };
+		5F3AC1342A2843E100623B69 /* ButtonMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */; };
+		5F3AC1382A284ABE00623B69 /* OtherHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1372A284ABE00623B69 /* OtherHeaderView.swift */; };
+		5F3AC13A2A284B4B00623B69 /* ButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1392A284B4B00623B69 /* ButtonData.swift */; };
+		5F3AC13C2A284BFF00623B69 /* OtherMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */; };
+		5F3AC13E2A284FE900623B69 /* StarHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC13D2A284FE900623B69 /* StarHistoryView.swift */; };
+		5F3AC1402A28510200623B69 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC13F2A28510200623B69 /* TestView.swift */; };
+		5F3AC1422A28546B00623B69 /* CoffeeMenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1412A28546B00623B69 /* CoffeeMenuData.swift */; };
+		5F3AC1442A28547500623B69 /* WhatsNewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AC1432A28547500623B69 /* WhatsNewsData.swift */; };
 		5FE5C8EB2A1B0D5A004DD9DB /* HeaderMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE5C8EA2A1B0D5A004DD9DB /* HeaderMenuView.swift */; };
 		5FFE063F29DE9C56005976FA /* CloneStartBucksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFE063E29DE9C56005976FA /* CloneStartBucksApp.swift */; };
 		5FFE064329DE9C57005976FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FFE064229DE9C57005976FA /* Assets.xcassets */; };
@@ -30,6 +38,14 @@
 		5F3AC12D2A27461A00623B69 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImageAndTextView.swift; sourceTree = "<group>"; };
 		5F3AC1312A2758DD00623B69 /* OtherButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherButtonModel.swift; sourceTree = "<group>"; };
+		5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenuView.swift; sourceTree = "<group>"; };
+		5F3AC1372A284ABE00623B69 /* OtherHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherHeaderView.swift; sourceTree = "<group>"; };
+		5F3AC1392A284B4B00623B69 /* ButtonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonData.swift; path = CloneStartBucks/View/ButtonData.swift; sourceTree = SOURCE_ROOT; };
+		5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OtherMenuView.swift; path = CloneStartBucks/App/OtherMenuView.swift; sourceTree = SOURCE_ROOT; };
+		5F3AC13D2A284FE900623B69 /* StarHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarHistoryView.swift; sourceTree = "<group>"; };
+		5F3AC13F2A28510200623B69 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TestView.swift; path = CloneStartBucks/Model/TestView.swift; sourceTree = SOURCE_ROOT; };
+		5F3AC1412A28546B00623B69 /* CoffeeMenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoffeeMenuData.swift; path = CloneStartBucks/Model/CoffeeMenuData.swift; sourceTree = SOURCE_ROOT; };
+		5F3AC1432A28547500623B69 /* WhatsNewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewsData.swift; sourceTree = "<group>"; };
 		5FE5C8EA2A1B0D5A004DD9DB /* HeaderMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMenuView.swift; sourceTree = SOURCE_ROOT; };
 		5FFE063B29DE9C56005976FA /* CloneStartBucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloneStartBucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFE063E29DE9C56005976FA /* CloneStartBucksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneStartBucksApp.swift; sourceTree = "<group>"; };
@@ -67,12 +83,34 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5F3AC1352A28498F00623B69 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5FFE066029F7A6D7005976FA /* HomeView.swift */,
+				5F3AC12D2A27461A00623B69 /* OtherView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5F3AC1362A2849DD00623B69 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5F3AC1412A28546B00623B69 /* CoffeeMenuData.swift */,
+				5F3AC1432A28547500623B69 /* WhatsNewsData.swift */,
+				5F3AC1392A284B4B00623B69 /* ButtonData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		5FE5C8E72A1B036B004DD9DB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5F3AC1372A284ABE00623B69 /* OtherHeaderView.swift */,
+				5F3AC13B2A284BFF00623B69 /* OtherMenuView.swift */,
+				5F3AC13F2A28510200623B69 /* TestView.swift */,
+				5F3AC13D2A284FE900623B69 /* StarHistoryView.swift */,
 				5FFE065029DEAEE9005976FA /* MainTabView.swift */,
-				5FFE066029F7A6D7005976FA /* HomeView.swift */,
-				5F3AC12D2A27461A00623B69 /* OtherView.swift */,
+				5F3AC1332A2843E100623B69 /* ButtonMenuView.swift */,
 				5F3AC12F2A27554700623B69 /* ButtonWithImageAndTextView.swift */,
 				5F3AC12A2A273BBA00623B69 /* LevelbarGaugeView.swift */,
 				5FFE065E29DF07BF005976FA /* HomeHeaderView.swift */,
@@ -103,8 +141,10 @@
 			isa = PBXGroup;
 			children = (
 				5FFE063E29DE9C56005976FA /* CloneStartBucksApp.swift */,
+				5F3AC1352A28498F00623B69 /* App */,
 				5FE5C8E72A1B036B004DD9DB /* View */,
 				5F3AC1282A271FEC00623B69 /* Model */,
+				5F3AC1362A2849DD00623B69 /* Data */,
 				5FFE064429DE9C57005976FA /* Preview Content */,
 			);
 			path = CloneStartBucks;
@@ -189,20 +229,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3AC1442A28547500623B69 /* WhatsNewsData.swift in Sources */,
 				5FFE066129F7A6D7005976FA /* HomeView.swift in Sources */,
+				5F3AC13E2A284FE900623B69 /* StarHistoryView.swift in Sources */,
 				5FFE064D29DEAD54005976FA /* TabModel.swift in Sources */,
 				5F3AC1302A27554700623B69 /* ButtonWithImageAndTextView.swift in Sources */,
 				5FFE065929DEC980005976FA /* WhatsNewsSectionView.swift in Sources */,
 				5FFE063F29DE9C56005976FA /* CloneStartBucksApp.swift in Sources */,
+				5F3AC1422A28546B00623B69 /* CoffeeMenuData.swift in Sources */,
+				5F3AC13A2A284B4B00623B69 /* ButtonData.swift in Sources */,
 				5FE5C8EB2A1B0D5A004DD9DB /* HeaderMenuView.swift in Sources */,
+				5F3AC1382A284ABE00623B69 /* OtherHeaderView.swift in Sources */,
+				5F3AC1402A28510200623B69 /* TestView.swift in Sources */,
 				5F3AC1322A2758DD00623B69 /* OtherButtonModel.swift in Sources */,
 				5FFE065729DEB761005976FA /* CoffeeMenuModel.swift in Sources */,
 				5FFE065F29DF07BF005976FA /* HomeHeaderView.swift in Sources */,
 				5FFE065B29DECA4B005976FA /* WhatsNewsModel.swift in Sources */,
 				5FFE065129DEAEE9005976FA /* MainTabView.swift in Sources */,
+				5F3AC1342A2843E100623B69 /* ButtonMenuView.swift in Sources */,
 				5FFE065529DEB603005976FA /* MenuSuggestionSectionView.swift in Sources */,
 				5F3AC12B2A273BBA00623B69 /* LevelbarGaugeView.swift in Sources */,
 				5F3AC12E2A27461A00623B69 /* OtherView.swift in Sources */,
+				5F3AC13C2A284BFF00623B69 /* OtherMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

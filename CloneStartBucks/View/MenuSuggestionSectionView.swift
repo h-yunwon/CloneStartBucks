@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MenuSuggestionSectionView: View {
+    
+    let coffeeMenu : [CoffeeMenuModel] = coffeeMenuData
     var body: some View {
         
         VStack {
@@ -19,7 +21,7 @@ struct MenuSuggestionSectionView: View {
                 .padding(.horizontal, 16.0)
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
-                    ForEach(CoffeeMenuModel.sample) { menu in
+                    ForEach(coffeeMenu) { menu in
                         MenuSuggestionItemView(imageName: menu.imageName, name: menu.name)
                     }
                 }
